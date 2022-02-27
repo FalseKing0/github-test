@@ -1,0 +1,30 @@
+html,
+body {
+  background: url(https://images.pexels.com/photos/4033683/pexels-photo-4033683.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940),
+    rgba(80, 80, 80, 0.8);
+  background-size: 100%;
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  font-size: 2em;
+  font-family: "Itim";
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 20px;
+  color: whitesmoke;
+  margin: 2em;
+}
